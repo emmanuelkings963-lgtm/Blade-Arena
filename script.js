@@ -1,5 +1,5 @@
 let enemyHp = 100;
-
+let xp = 0;
 function attack() {
     enemyHp = enemyHp - 10;
 
@@ -10,6 +10,8 @@ function attack() {
     document.getElementById("enemyHp").innerHTML = enemyHp;
 
     if (enemyHp === 0) {
-        alert("🏆 Enemy Defeated!");
+    xp = xp + 50;
+    document.getElementById("xpText").innerHTML = xp;
+    alert("🏆 Enemy Defeated!\n⭐ +50 XP");
     }
 }
