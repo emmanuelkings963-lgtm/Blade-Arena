@@ -1,5 +1,6 @@
 let enemyHp = 100;
 let xp = 0;
+let level = 1;
 function attack() {
     enemyHp = enemyHp - 10;
 
