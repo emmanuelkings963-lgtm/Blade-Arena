@@ -14,4 +14,5 @@ function attack() {
     document.getElementById("xpText").innerHTML = xp;
     alert("🏆 Enemy Defeated!\n⭐ +50 XP");
     }
-}
+enemyHp = 100;
+document.getElementById("enemyHp").innerHTML = enemyHp;
