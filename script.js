@@ -16,6 +16,16 @@ enemy.classList.add("enemy-hit");
 setTimeout(() => {
     enemy.classList.remove("enemy-hit");
 }, 300);
+    let enemyImage = document.querySelector(".enemy-image img");
+
+setTimeout(() => {
+    enemyImage.classList.add("goblin-attack");
+
+    setTimeout(() => {
+        enemyImage.classList.remove("goblin-attack");
+    }, 500);
+
+}, 500);
     if (enemyHp === 0) {
         alert("🏆 Enemy Defeated!");
 document.querySelector(".enemy").style.display = "none";
