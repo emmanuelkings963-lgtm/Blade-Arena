@@ -33,5 +33,11 @@ document.querySelector(".enemy").style.display = "none";
         
 }
 function startBattle() {
-    document.getElementById("intro").style.display = "none";
+    const intro = document.getElementById("intro");
+
+    intro.style.opacity = "0";
+
+    setTimeout(() => {
+        intro.style.display = "none";
+    }, 500);
 }
