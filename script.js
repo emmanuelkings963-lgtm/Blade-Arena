@@ -8,7 +8,7 @@ function attack() {
     }
 
     document.getElementById("enemyHp").textContent = enemyHp;
-
+document.getElementById("hpBar").style.width = enemyHp + "%";
     if (enemyHp === 0) {
         alert("🏆 Enemy Defeated!");
 
