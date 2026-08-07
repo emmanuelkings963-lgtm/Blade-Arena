@@ -78,3 +78,18 @@ button:hover {
         transform: translateY(-10px);
     }
 }
+.goblin-attack {
+    animation: attackMove 0.5s;
+}
+
+@keyframes attackMove {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
