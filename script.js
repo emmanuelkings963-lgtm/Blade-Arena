@@ -13,7 +13,4 @@ document.getElementById("hpBar").style.width = enemyHp + "%";
         alert("🏆 Enemy Defeated!");
 document.querySelector(".enemy").style.display = "none";
     }
-        enemyHp = 100;
-        document.getElementById("enemyHp").textContent = enemyHp;
-    }
-}
+        
