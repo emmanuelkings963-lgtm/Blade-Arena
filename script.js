@@ -11,7 +11,8 @@ function attack() {
 document.getElementById("hpBar").style.width = enemyHp + "%";
     if (enemyHp === 0) {
         alert("🏆 Enemy Defeated!");
-
+document.querySelector(".enemy").style.display = "none";
+    }
         enemyHp = 100;
         document.getElementById("enemyHp").textContent = enemyHp;
     }
