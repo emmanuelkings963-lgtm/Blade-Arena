@@ -121,3 +121,15 @@ button:hover {
     font-size: 18px;
     cursor: pointer;
     }
+#intro {
+    animation: introFade 1.5s ease-in;
+}
+
+@keyframes introFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    }
