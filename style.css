@@ -93,3 +93,31 @@ button:hover {
         transform: translateX(0);
     }
 }
+#intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+#intro h1 {
+    font-size: 40px;
+}
+
+#intro p {
+    font-size: 20px;
+}
+
+#intro button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    }
