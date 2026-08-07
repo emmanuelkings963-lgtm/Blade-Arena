@@ -14,3 +14,4 @@ document.getElementById("hpBar").style.width = enemyHp + "%";
 document.querySelector(".enemy").style.display = "none";
     }
         
+}
