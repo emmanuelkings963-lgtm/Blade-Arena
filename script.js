@@ -32,3 +32,6 @@ document.querySelector(".enemy").style.display = "none";
     }
         
 }
+function startBattle() {
+    document.getElementById("intro").style.display = "none";
+}
