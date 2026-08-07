@@ -54,3 +54,15 @@ button:hover {
     75% { transform: translateX(-10px); }
     100% { transform: translateX(0); }
 }
+.enemy-image img {
+    animation: idle 1s infinite alternate;
+}
+
+@keyframes idle {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
